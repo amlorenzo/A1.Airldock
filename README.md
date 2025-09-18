@@ -1,6 +1,8 @@
 ﻿# Airlock Controller (Space Engineers)
 
-A programmable-block script that runs **multiple airlocks** by name, captures air into a **per-airlock “process tank”**, restores it on re-entry, blinks lights during the cycle, and **auto-closes non-airlock doors** after a delay. Verbose on-screen debug shows live state (mode/step/O₂).
+A programmable-block script that runs **multiple airlocks** by name, captures air into a **per-airlock “process tank”**, restores it on re-entry, blinks lights during the cycle, and **auto-closes non-airlock doors** after a delay. Verbose on-screen debug shows live state (mode/step/O₂). 
+
+You do not need to create a separate conveyor network; everything works on the same network.
 
 
 ---
@@ -201,6 +203,7 @@ Depressurizing pushes O₂ into the **entire connected conveyor network**.
 - Inside base: `enter A1`
 - Exterior side: `exit A1`
 - Maintenance: `rescan`, `list`, `test A1`
+
 
 
 
